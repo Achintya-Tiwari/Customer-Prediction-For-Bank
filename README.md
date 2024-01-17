@@ -3,7 +3,7 @@ The code is organized into sections for data preprocessing, model building, trai
 
 This code utilizes an Artificial Neural Network (ANN) built with TensorFlow to predict customer churn in a bank, considering diverse features. The trained model enables predictions on whether a customer is likely to leave the bank. Beyond mere classification accuracy, the results, evaluated through a confusion matrix, provide actionable insights for strategic decisions. By anticipating potential customer exits, the bank can implement retention strategies, thereby encouraging customer loyalty, optimizing resource allocation, and ultimately enhancing the overall customer experience. The predictive analytics derived from the ANN contribute to a data-driven approach for effective customer relationship management.
 
-# 1. Data Preprocessing:
+## 1. Data Preprocessing:
 Libraries such as NumPy, Pandas, and TensorFlow are imported. The dataset is loaded using Pandas. Features (X) and the target variable (y) are extracted. Categorical data is encoded: 'Gender' using Label Encoding and 'Geography' using One-Hot Encoding.
 # 2. Data Splitting and Scaling:
 The dataset is split into training and testing sets using train_test_split from scikit-learn. Feature scaling is performed using StandardScaler to standardize feature values.

@@ -1,4 +1,4 @@
-# Artificial Neural Network
+# A
 
 # Importing the libraries
 import numpy as np
